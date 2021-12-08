@@ -16,7 +16,7 @@ import { RemoveScroll } from 'react-remove-scroll';
 import { HiOutlineMenu, HiOutlineX } from 'react-icons/hi';
 
 import Logo from '@/components/Logo';
-import NavLink from '@/components/NavLink';
+import NavLink from '@/components/layout/NavLink';
 import ColorModeSwitcher from '@/components/ColorModeSwitcher';
 
 import { NavLinks } from '@/types';

@@ -3,8 +3,8 @@ import { Box, Flex, HStack, useColorModeValue as mode } from '@chakra-ui/react';
 
 import ColorModeSwitcher from '@/components/ColorModeSwitcher';
 import Container from '@/components/Container';
-import MobileNav from '@/components/MobileNav';
-import NavLink from '@/components/NavLink';
+import MobileNav from '@/components/layout/MobileNav';
+import NavLink from '@/components/layout/NavLink';
 import Logo from '@/components/Logo';
 
 import { NavLinks } from '@/types';
