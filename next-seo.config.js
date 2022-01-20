@@ -1,5 +1,6 @@
 /** @type {import('next-seo').DefaultSeoProps} */
 const DEFAULT_SEO = {
+  // TODO: Change these default meta
   title: undefined,
   titleTemplate: '%s | Next.js + Chakra UI + Typescript Starter',
   defaultTitle: 'Next.js + Chakra UI + Typescript Starter',

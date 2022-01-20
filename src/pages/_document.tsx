@@ -1,5 +1,8 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
+// TODO:
+// 1. Generate your favicon on sites like https://www.favicon-generator.org/ then replace /public/favicon folder with yours
+// 2. Change information on /public/manifest.json
 class MyDocument extends Document {
   render() {
     return (
@@ -75,11 +78,12 @@ class MyDocument extends Document {
             href='/favicon/favicon-16x16.png'
           />
           <link rel='manifest' href='/manifest.json' />
-          <meta name='msapplication-TileColor' content='#171923' />
           <meta
             name='msapplication-TileImage'
             content='/favicon/ms-icon-144x144.png'
           />
+          {/* TODO: Change these two colors with your brand color */}
+          <meta name='msapplication-TileColor' content='#171923' />
           <meta name='theme-color' content='#171923' />
         </Head>
         <body>
