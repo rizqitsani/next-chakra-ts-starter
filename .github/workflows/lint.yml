@@ -31,7 +31,7 @@ jobs:
           node-version: '14'
           cache: 'yarn'
       - run: yarn
-      - run: yarn tsc
+      - run: yarn type:check
 
   prettier:
     name: Run Prettier Check
