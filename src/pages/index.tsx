@@ -1,3 +1,4 @@
+import * as React from 'react';
 import {
   Button,
   Heading,
@@ -10,13 +11,11 @@ import {
 } from '@chakra-ui/react';
 
 import Container from '@/components/Container';
-import Footer from '@/components/layout/Footer';
-import NavBar from '@/components/layout/NavBar';
+import Layout from '@/components/layout';
 
 const HomePage = () => {
   return (
-    <>
-      <NavBar />
+    <Layout>
       <Container as='main'>
         <VStack
           as='section'
@@ -52,8 +51,7 @@ const HomePage = () => {
           </HStack>
         </VStack>
       </Container>
-      <Footer />
-    </>
+    </Layout>
   );
 };
 
