@@ -4,7 +4,6 @@ import {
   IconButton,
   IconButtonProps,
 } from '@chakra-ui/react';
-
 import { HiMoon, HiOutlineSun } from 'react-icons/hi';
 
 const ColorModeSwitcher = (props: IconButtonProps) => {

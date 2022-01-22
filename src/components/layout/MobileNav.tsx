@@ -1,4 +1,5 @@
 import { useRef } from 'react';
+
 import {
   Box,
   Flex,
@@ -11,14 +12,13 @@ import {
 } from '@chakra-ui/react';
 import { HTMLMotionProps, motion } from 'framer-motion';
 import FocusLock from 'react-focus-lock';
+import { HiOutlineMenu, HiOutlineX } from 'react-icons/hi';
 import { RemoveScroll } from 'react-remove-scroll';
 
-import { HiOutlineMenu, HiOutlineX } from 'react-icons/hi';
-
-import Logo from '@/components/Logo';
+import ColorModeSwitcher from '@/components/ColorModeSwitcher';
 import { NavLinksType } from '@/components/layout/NavBar';
 import NavLink from '@/components/layout/NavLink';
-import ColorModeSwitcher from '@/components/ColorModeSwitcher';
+import Logo from '@/components/Logo';
 
 type BackdropProps = {
   show: boolean;

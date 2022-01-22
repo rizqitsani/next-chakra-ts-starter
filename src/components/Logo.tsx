@@ -1,4 +1,5 @@
 import NextLink from 'next/link';
+
 import { Text } from '@chakra-ui/react';
 
 const Logo = () => {

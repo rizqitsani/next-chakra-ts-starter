@@ -1,5 +1,6 @@
-import * as React from 'react';
 import Link from 'next/link';
+import * as React from 'react';
+
 import {
   Box,
   Flex,
@@ -9,7 +10,6 @@ import {
   LinkProps,
   useColorModeValue as mode,
 } from '@chakra-ui/react';
-
 import { IconType } from 'react-icons';
 
 type DesktopNavLinkProps = {
