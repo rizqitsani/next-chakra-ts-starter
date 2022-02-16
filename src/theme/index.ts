@@ -2,6 +2,14 @@ import { extendTheme } from '@chakra-ui/react';
 import { mode, StyleFunctionProps } from '@chakra-ui/theme-tools';
 
 const theme = extendTheme({
+  semanticTokens: {
+    colors: {
+      primary: {
+        default: 'orange.600',
+        _dark: 'orange.300',
+      },
+    },
+  },
   styles: {
     global: (props: StyleFunctionProps) => ({
       body: {

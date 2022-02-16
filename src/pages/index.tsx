@@ -7,7 +7,6 @@ import {
   Image,
   Link,
   Text,
-  useColorModeValue as mode,
   VStack,
 } from '@chakra-ui/react';
 
@@ -27,7 +26,7 @@ const HomePage = () => {
           minHeight={{ base: 'calc(100vh - 7.5rem)', md: 'calc(100vh - 8rem)' }}
           spacing={6}
         >
-          <Heading as='h1' color={mode('gray.900', 'orange.300')}>
+          <Heading as='h1' color='primary' textAlign='center'>
             Next.js + Chakra UI + Typescript Starter
           </Heading>
           <HStack>

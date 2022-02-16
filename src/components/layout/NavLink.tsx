@@ -33,7 +33,7 @@ const DesktopNavLink = ({ active, href, ...rest }: DesktopNavLinkProps) => {
         color={mode('gray.600', 'gray.300')}
         {...rest}
         _activeLink={{
-          color: mode('orange.600', 'orange.300'),
+          color: 'primary',
           fontWeight: 'bold',
         }}
         _focus={{ outline: 'none' }}
@@ -60,11 +60,7 @@ const MobileNavLink = ({
         _hover={{ bg: mode('gray.50', 'gray.600') }}
         {...rest}
       >
-        <Icon
-          as={icon}
-          color={mode('orange.600', 'orange.400')}
-          fontSize='xl'
-        />
+        <Icon as={icon} color='primary' fontSize='xl' />
         <Box ml={3} fontWeight='medium'>
           {children}
         </Box>
